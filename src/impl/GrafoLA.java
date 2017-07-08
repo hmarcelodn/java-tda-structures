@@ -75,6 +75,7 @@ public class GrafoLA implements GrafoTDA{
 		NodoArista aristaAux = new NodoArista();
 		aristaAux.etiqueta = peso;
 		aristaAux.nodoDestino = auxDestino;
+		aristaAux.sigArista = auxOrigen.arista;
 		auxOrigen.arista = aristaAux;		
 	}
 	
