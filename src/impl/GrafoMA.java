@@ -47,8 +47,7 @@ public class GrafoMA implements GrafoTDA{
 		conjuntoVertices.inicializarConjunto();
 		
 		for(int k = 0; k < cantNodos; k++){
-			int vertice = mapa[k];
-			conjuntoVertices.agregar(vertice);
+			conjuntoVertices.agregar(mapa[k]);
 		}
 		
 		return conjuntoVertices;
