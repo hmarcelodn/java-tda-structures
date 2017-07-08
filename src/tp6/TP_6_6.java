@@ -32,7 +32,7 @@ public class TP_6_6 {
 		}
 	}
 	
-	public static ConjuntoTDA obtenerPredecesores(GrafoTDA grafo, int vertice){
+	private static ConjuntoTDA obtenerPredecesores(GrafoTDA grafo, int vertice){
 		ConjuntoTDA predecesores = new ConjuntoLD();
 		predecesores.inicializarConjunto();
 		
